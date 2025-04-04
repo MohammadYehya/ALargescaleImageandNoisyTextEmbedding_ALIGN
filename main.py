@@ -20,4 +20,6 @@ logits_per_image = outputs.logits_per_image
 
 # we can take the softmax to get the label probabilities
 probs = logits_per_image.softmax(dim=1)
-print(probs)
+print(candidate_labels)
+for i in range(len(candidate_labels)):
+    print(f"Probability for [{candidate_labels[i]}] = {probs[0][i]}")
