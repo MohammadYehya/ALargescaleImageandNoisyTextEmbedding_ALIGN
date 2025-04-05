@@ -1,2 +1,2 @@
 # ALargescaleImageandNoisyTextEmbedding_ALIGN
-Implementation of an ALIGN model.
+Experiments while learning how to use the ALIGN model for image-text understanding and retrieval.
